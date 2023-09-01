@@ -1,0 +1,109 @@
+body{
+    height: 100%;
+}
+
+.signupFrm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#alguien-ayudeme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.carraso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:grey
+}
+
+.title{
+    font-size:35;
+    text-align: center;
+    margin-bottom: 25px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:grey;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px
+}
+
+
+.tienda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+#cartas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cosa-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-outline-danger{
+    margin: 15px;
+}
+
+
+#productosSeleccionados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#carro{
+    display: none;
+}
+
+#contenedorBotones{
+    display: none;
+}
+#shadow{
+    display: none;
+}
